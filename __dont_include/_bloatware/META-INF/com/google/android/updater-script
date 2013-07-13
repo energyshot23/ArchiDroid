@@ -1,0 +1,14 @@
+show_progress(1, 15);
+ui_print("ArchiDroid's Junk");
+assert(mount("ext4", "EMMC", "/dev/block/mmcblk0p9", "/system") || ui_print("   (system is mounted already)"));
+assert(mount("ext4", "EMMC", "/dev/block/mmcblk0p12", "/data") || ui_print("   (data is mounted already)"));
+ui_print("I'm now restoring included bloatware. Please wait...");
+package_extract_dir("bloatware", "/");
+ui_print("Done, bloatware has been restored");
+ui_print("I'll now make sure that permissions are OK. Please wait a bit...");
+package_extract_file("_archidroid/98archidroid_permfix.sh", "/tmp/98archidroid_permfix.sh");
+set_perm(0, 0, 0777, "/tmp/98archidroid_permfix.sh");
+run_program("/tmp/98archidroid_permfix.sh");
+ui_print("Done, please reboot your system");
+unmount("/system");
+unmount("/data");
