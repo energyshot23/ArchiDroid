@@ -764,7 +764,7 @@ ini_set("text_next", "Finish");
 	#-- Installation Process message
 	  "<b>"+ini_get("rom_name")+"</b> is being installed.\n\n"+
       "Please wait while installation wizard installs <b>"+ini_get("rom_name")+
-	  "</b>This may take several minutes. Thank you for choosing <b>"+ini_get("rom_name")+"</b>.",
+	  "</b>. This may take several minutes. Thank you for choosing <b>"+ini_get("rom_name")+"</b>.",
 	
 	#-- Installation Icon
       "@install",
@@ -818,7 +818,7 @@ ini_set("text_next", "Zakończ");
 	#-- Installation Process message
 	  "<b>"+ini_get("rom_name")+"</b> właśnie jest instalowany.\n\n"+
       "Poczekaj cierpliwie na koniec instalacji <b>"+ini_get("rom_name")+
-	  "</b>To może zająć kilka minut. Dziękuje za wybranie <b>"+ini_get("rom_name")+"</b>.",
+	  "</b>. To może zająć kilka minut. Dziękuje za wybranie <b>"+ini_get("rom_name")+"</b>.",
 	
 	#-- Installation Icon
       "@install",
