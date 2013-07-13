@@ -577,36 +577,26 @@ if file_getprop("/tmp/aroma-data/archiapps.prop","item.0.5") == "1" then
 endif;
 
 if file_getprop("/tmp/aroma-data/archiapps.prop","item.0.6") == "1" then
-	ui_print("root@ArchiDroid:~# Installing Rotate");
-	package_extract_dir("_archidroid/apps/rotate", "/");
-endif;
-
-if file_getprop("/tmp/aroma-data/archiapps.prop","item.0.7") == "1" then
-	ui_print("root@ArchiDroid:~# Installing Spirit FM");
-	package_extract_dir("_archidroid/apps/spiritfm", "/");
-endif;
-
-if file_getprop("/tmp/aroma-data/archiapps.prop","item.0.8") == "1" then
 	ui_print("root@ArchiDroid:~# Installing BetterBatteryStats");
 	package_extract_dir("_archidroid/apps/betterbatterystats", "/");
 endif;
 
-if file_getprop("/tmp/aroma-data/archiapps.prop","item.0.9") == "1" then
+if file_getprop("/tmp/aroma-data/archiapps.prop","item.0.7") == "1" then
 	ui_print("root@ArchiDroid:~# Installing CoolTool");
 	package_extract_dir("_archidroid/apps/cooltool", "/");
 endif;
 
-if file_getprop("/tmp/aroma-data/archiapps.prop","item.0.10") == "1" then
+if file_getprop("/tmp/aroma-data/archiapps.prop","item.0.8") == "1" then
 	ui_print("root@ArchiDroid:~# Installing Root Browser");
 	package_extract_dir("_archidroid/apps/rootbrowser", "/");
 endif;
 
-if file_getprop("/tmp/aroma-data/archiapps.prop","item.0.11") == "1" then
+if file_getprop("/tmp/aroma-data/archiapps.prop","item.0.9") == "1" then
 	ui_print("root@ArchiDroid:~# Installing Adobe Flash Player");
 	package_extract_dir("_archidroid/apps/adobeflash", "/");
 endif;
 
-if file_getprop("/tmp/aroma-data/archiapps.prop","item.0.12") == "1" then
+if file_getprop("/tmp/aroma-data/archiapps.prop","item.0.10") == "1" then
 	ui_print("root@ArchiDroid:~# Installing YouTube");
 	package_extract_dir("_archidroid/apps/youtube", "/");
 endif;
