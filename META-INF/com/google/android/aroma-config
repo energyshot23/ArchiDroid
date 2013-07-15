@@ -390,6 +390,16 @@ if file_getprop("/tmp/aroma-data/dpi.prop","selected.0") != "3" then
 endif;
 
 selectbox(
+  "Theme",
+  "Which theme would you like to use?",
+  "icons/personalize",
+  "theme.prop",
+
+  "DreamTheme AOSP Theme","Developed by orangerot",1,
+  "Stock Theme","Don't touch default theme",0
+);
+
+selectbox(
   "Launcher",
   "Which launcher would you like to use?",
   "icons/apps",
@@ -557,6 +567,16 @@ if file_getprop("/tmp/aroma-data/dpi.prop","selected.0") != "3" then
     resread("pol_customdpi.txt")
 );
 endif;
+
+selectbox(
+  "Motyw",
+  "Którego motywu chciałbyś użyć?",
+  "icons/personalize",
+  "theme.prop",
+
+  "DreamTheme AOSP","Stworzony przez orangerot",1,
+  "Stock","Nie ruszaj domyślnego motywu",0
+);
 
 selectbox(
   "Launcher",
