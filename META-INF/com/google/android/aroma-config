@@ -368,10 +368,26 @@ selectbox(
   "icons/personalize",
   "dpi.prop",
 
-  "240 DPI [WARNING]","Everything will be smaller, it includes buttons, icons, texts etc. Suggested for best experience with ArchiDroid!",1,
+  "240 DPI [WARNING]","Everything will be smaller, it includes buttons, icons, texts etc. Suggested for best experience with ArchiDroid!",0,
   "280 DPI [WARNING]","A nice balance between stock and 240 DPI mode",0,
-  "320 DPI","Stock value",0
+  "320 DPI","Stock value",1
 );
+
+if file_getprop("/tmp/aroma-data/dpi.prop","selected.0") != "3" then
+	textbox(
+  #-- Title
+    "ArchiDroid",
+  
+  #-- Subtitle
+    "",
+  
+  #-- Icon
+    "@alert",
+  
+  #-- Arg 4
+    resread("customdpi.txt")
+);
+endif;
 
 selectbox(
   "Launcher",
@@ -521,10 +537,26 @@ selectbox(
   "icons/personalize",
   "dpi.prop",
 
-  "240 DPI [UWAGA]","Wszystko będzie o wiele mniejsze niż standardowo. Wysoce zalecane",1,
+  "240 DPI [UWAGA]","Wszystko będzie o wiele mniejsze niż standardowo. Wysoce zalecane",0,
   "280 DPI [UWAGA]","Dobry kompromis pomiędzy 320, a 240 DPI",0,
-  "320 DPI","Wartość domyślna dla stocków i CyanogenMod",0
+  "320 DPI","Wartość domyślna dla stocków i CyanogenMod",1
 );
+
+if file_getprop("/tmp/aroma-data/dpi.prop","selected.0") != "3" then
+	textbox(
+  #-- Title
+    "ArchiDroid",
+  
+  #-- Subtitle
+    "",
+  
+  #-- Icon
+    "@alert",
+  
+  #-- Arg 4
+    resread("pol_customdpi.txt")
+);
+endif;
 
 selectbox(
   "Launcher",

@@ -1,0 +1,5 @@
+<@center><b>WARNING!</b>
+
+Keep in mind that DPIs other than 320 are not yet fully compatible with Samsung's Android 4.2.2. For best experience I highly suggest selecting non-TouchWiz launcher and non-Sammy keyboard (f.e. Nova and TouchPal).
+
+You can also notice some ui glitches f.e. phone dialer being in 320 DPI. Proceed only if you totally understand that.
