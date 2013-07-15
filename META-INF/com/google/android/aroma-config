@@ -323,7 +323,7 @@ selectbox(
   "icons/apps",
   "acid.prop",
 
-  "Yes","Highly recommended. Works great with Temasek kernel and Boeffla SC. We'll install AC!D Audio Technology",1,
+  "Yes","Highly recommended. We'll install AC!D Audio Technology",1,
   "No","Will not install AC!D Audio Technology",0
 );
 
@@ -334,7 +334,7 @@ selectbox(
   "icons/apps",
   "acid2.prop",
 
-  "AudioBeats","Highly recommended for best audio experience. Works great with Boeffla SC and enhances it's features",1,
+  "AudioBeats","Highly recommended for best audio experience.",1,
   "ClearAudio [EXPERIMENTAL]","Comes as an alternative to AudioBeats. Not recommended due to bad implementation and possible future problems",0
 );
 else
@@ -352,7 +352,7 @@ selectbox(
   "preset.prop",
 
   "Archi's Audiophile Preset","Highly recommended. It enhances audio quality by tweaking AudioBeats and Boeffla SC using Archi's taste",1,
-  "No Preset","Not recommended. You'll miss most features provided by AudioBeats and Boeffla SC. Use it only if you want to create your own preset later",0
+  "No Preset","Not recommended. You'll miss most features provided by AudioBeats. Use it only if you want to create your own preset later",0
 );
 else
 	writetmpfile(
@@ -368,8 +368,8 @@ selectbox(
   "icons/personalize",
   "dpi.prop",
 
-  "240 DPI","Everything will be smaller, it includes buttons, icons, texts etc. Suggested for best experience with ArchiDroid!",1,
-  "280 DPI","A nice balance between stock and 240 DPI mode",0,
+  "240 DPI [WARNING]","Everything will be smaller, it includes buttons, icons, texts etc. Suggested for best experience with ArchiDroid!",1,
+  "280 DPI [WARNING]","A nice balance between stock and 240 DPI mode",0,
   "320 DPI","Stock value",0
 );
 
@@ -392,7 +392,7 @@ selectbox(
   "TouchPal Keyboard","Recommended as great and very flexible Swype/Curve keyboard",1,
   "Hacker's Keyboard","Great alternative to TouchPal if you're not going to use swype/curve function",0,
   "TouchPal + Hacker's Keyboard","If you want to use both TouchPal and Hacker's (for example in terminal)",0,
-  "Stock","If you want to keep default CM keyboard",0
+  "Stock","If you want to keep default Samsung keyboard",0
 );
 
 selectbox(
@@ -476,7 +476,7 @@ selectbox(
   "icons/apps",
   "acid.prop",
 
-  "Tak","Wysoce zalecane. Działa świetnie z kernelem Temasek oraz Boeffla SC. Zainstaluję AC!D Audio Technology",1,
+  "Tak","Wysoce zalecane. Zainstaluję AC!D Audio Technology",1,
   "Nie","Nie zainstaluję AC!D Audio Technology",0
 );
 
@@ -487,7 +487,7 @@ selectbox(
   "icons/apps",
   "acid2.prop",
 
-  "AudioBeats","Wysoce zalecane dla najlepszych doznań audio. Działa świetnie z Boeffla SC i znacznie poprawia dostarczaną jakość",1,
+  "AudioBeats","Wysoce zalecane dla najlepszych doznań audio.",1,
   "ClearAudio [EXPERIMENTAL]","Alternatywa dla AudioBeats. Niezalecane z powodu złej implementacji i możliwych problemów",0
 );
 else
@@ -504,7 +504,7 @@ selectbox(
   "icons/apps",
   "preset.prop",
 
-  "Preset Archi's Audiophile","Wysoce zalecany. Poprawia jakość dźwięku poprzez ustawienia AudioBeats oraz Boeffla SC wg. gustu Archiego",1,
+  "Preset Archi's Audiophile","Wysoce zalecany. Poprawia jakość dźwięku poprzez ustawienia AudioBeats wg. gustu Archiego",1,
   "Brak Presetu","Niezalecane z powodu utraty wielu funkcji. Wybierz wyłącznie jeśli chcesz stworzyć swój własny preset później",0
 );
 else
@@ -521,8 +521,8 @@ selectbox(
   "icons/personalize",
   "dpi.prop",
 
-  "240 DPI","Wszystko będzie o wiele mniejsze niż standardowo. Wysoce zalecane",1,
-  "280 DPI","Dobry kompromis pomiędzy 320, a 240 DPI",0,
+  "240 DPI [UWAGA]","Wszystko będzie o wiele mniejsze niż standardowo. Wysoce zalecane",1,
+  "280 DPI [UWAGA]","Dobry kompromis pomiędzy 320, a 240 DPI",0,
   "320 DPI","Wartość domyślna dla stocków i CyanogenMod",0
 );
 
@@ -545,7 +545,7 @@ selectbox(
   "Klawiatura TouchPal","Zalecana jako świetna i bardzo elastyczna klawiatura Swype/Curve",1,
   "Klawiatura Hacker's","Świetna alternatywa dla TouchPal'a jeśli nie potrzebujemy Swype/Curve",0,
   "Klawiatury TouchPal + Hacker's","Jeśli z jakiegoś powodu chciałbyś zainstalować obydwie te klawiatury",0,
-  "Stock","Jeśli chciałbyś pozostać przy klawiaturze prosto z CyanogenMod",0
+  "Stock","Jeśli chciałbyś pozostać przy klawiaturze prosto od Samsunga",0
 );
 
 selectbox(
