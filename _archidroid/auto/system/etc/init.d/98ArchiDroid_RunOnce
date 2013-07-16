@@ -81,10 +81,6 @@ while ! pgrep com.android ; do
 				sleep $MAKESURE
 			done
 				MAKESURE=1
-			while [ $MAKESURE -eq 1 ]; do
-				MAKESURE=`sqlite3 /data/data/com.android.providers.settings/databases/settings.db "insert into system values(null, 'lockscreen_ripple_effect', '2');" 2>&1 1>/dev/null | wc -l`
-				sleep $MAKESURE
-			done
 			
 			# And don't execute twice
 			DBUPDATE=0
@@ -142,6 +138,7 @@ sysro
 if [ $ADRELOAD -eq 1 ]; then
 	# For some reason Sammy doesn't like hot reboot so let's do it as usual
 	#killall system_server
+	sync
 	reboot
 fi
 
