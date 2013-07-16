@@ -17,7 +17,7 @@ while ! pgrep com.android ; do
 done
 
 # Now that is checked, let's just wait another tiny little bit
-sleep 10
+sleep 20
 
 VERSION="2.04"
 

@@ -1,4 +1,4 @@
-16
+17
 com.android.chrome
 com.google.android.apps.plus
 com.google.android.googlequicksearchbox
@@ -15,3 +15,4 @@ com.mxtech.videoplayer.ad
 com.keramidas.TitaniumBackup
 com.google.android.ears
 com.google.android.voicesearch
+jackpal.androidterm

@@ -47,7 +47,7 @@ ini_set("rom_name",             "ArchiDroid");
 ini_set("rom_version",          "1.6");
 ini_set("rom_author",           "JustArchi");
 ini_set("rom_device",           "Samsung Galaxy S3");
-ini_set("rom_date",             "July XXth, 2013");
+ini_set("rom_date",             "July 16th, 2013");
 
 ##
 # Show Simple Splash
@@ -732,7 +732,8 @@ checkbox(
   "CoolTool","Shows some useful statistics on the top bar",1,
   "Root Browser","Very cool browser extended by optional root access",1,
   "Adobe Flash Player","Adds flash content support. Does not work with Google Chrome",1,
-  "YouTube","Nice inverted player for YouTube",1
+  "YouTube","Nice inverted player for YouTube",1,
+  "Android Terminal Emulator","Gives you a power to execute any command from linux-like terminal. Hackers keyboard recommended for easy use of special keys",1
 );
 endif;
 
@@ -753,7 +754,8 @@ checkbox(
   "CoolTool","Wyświetla wiele użytecznych informacji na górnym pasku powiadomień",1,
   "Root Browser","Jeden z najlepszych menadżerów plików, wspomagany opcjonalnie dostępem root",1,
   "Adobe Flash Player","Zapewnia wsparcie dla technologii flash. Nie działa z Google Chrome",1,
-  "YouTube","Ciemny odtwarzacz YouTube",1
+  "YouTube","Ciemny odtwarzacz YouTube",1,
+  "Android Terminal","Zapewnia mozliwość wykonywania dowolnych komend z terminala znanego z linuxów. Klawiatura Hacker's jest wysoce zalecana",1
 );
 endif;
 
