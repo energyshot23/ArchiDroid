@@ -774,7 +774,9 @@ checkbox(
   "architweaks.prop",
 
   "HD Voice","Enables HD Voice if available",1,
-  "Add build.prop Tweaks","Deeper sleep and disable debug to improve performance",1
+  "Add build.prop Tweaks","Deeper sleep and disable debug to improve performance",1,
+  "Beep Sound","Custom power on sound",1,
+  "ArchiDroid Bootanimation","Custom Bootanimation",1
 );
 endif;
 
@@ -788,7 +790,9 @@ checkbox(
   "architweaks.prop",
 
   "HD Voice","Włącza HD Voice o ile dostępne",1,
-  "build.prop Tweaks","Głębszy sen oraz wyłączenie zbędnych logów w celu lepszej wydajności",1
+  "build.prop Tweaks","Głębszy sen oraz wyłączenie zbędnych logów w celu lepszej wydajności",1,
+  "Dźwięk Beep","Własny dźwięk włączania",1,
+  "Animacja ArchiDroid","Własna animacja włączania",1
 );
 endif;
 

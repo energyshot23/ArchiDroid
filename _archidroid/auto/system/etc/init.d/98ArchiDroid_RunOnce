@@ -58,35 +58,6 @@ while ! pgrep com.android ; do
 		echo ""
 	fi
 	
-	if [ $DBUPDATE -eq 1 ]; then
-		if [ -e /data/data/com.android.providers.settings/databases/settings.db ]; then
-			MAKESURE=1
-			while [ $MAKESURE -eq 1 ]; do
-				MAKESURE=`sqlite3 /data/data/com.android.providers.settings/databases/settings.db "insert into global values(null, 'transition_animation_scale', '0.5');" 2>&1 1>/dev/null | wc -l`
-				sleep $MAKESURE
-			done
-			MAKESURE=1
-			while [ $MAKESURE -eq 1 ]; do
-				MAKESURE=`sqlite3 /data/data/com.android.providers.settings/databases/settings.db "insert into global values(null, 'animator_duration_scale', '0.5');" 2>&1 1>/dev/null | wc -l`
-				sleep $MAKESURE
-			done
-			MAKESURE=1
-			while [ $MAKESURE -eq 1 ]; do
-				MAKESURE=`sqlite3 /data/data/com.android.providers.settings/databases/settings.db "insert into global values(null, 'window_animation_scale', '0.5');" 2>&1 1>/dev/null | wc -l`
-				sleep $MAKESURE
-			done
-			MAKESURE=1
-			while [ $MAKESURE -eq 1 ]; do
-				MAKESURE=`sqlite3 /data/data/com.android.providers.settings/databases/settings.db "insert into global values(null, 'install_non_market_apps', '1');" 2>&1 1>/dev/null | wc -l`
-				sleep $MAKESURE
-			done
-				MAKESURE=1
-			
-			# And don't execute twice
-			DBUPDATE=0
-		fi
-	fi
-	
 	# Now let's MAKE SURE that our settings are in fact applied, only if we don't have shared_prefs already (prevent non-clean override)
 	if [ $ADMANY -gt 0 ]; then
 		for FOLDER in * ; do
@@ -122,6 +93,21 @@ sleep 10
 
 # If we have any more runonce scripts then it's the right place for that
 
+if [ $DBUPDATE -eq 1 ]; then
+	if [ -e /data/data/com.android.providers.settings/databases/settings.db ]; then
+			sqlite3 /data/data/com.android.providers.settings/databases/settings.db "insert into global values(null, 'install_non_market_apps', '1');"
+			sleep 1
+			sqlite3 /data/data/com.android.providers.settings/databases/settings.db "insert into global values(null, 'transition_animation_scale', '0.5');"
+			sleep 1
+			sqlite3 /data/data/com.android.providers.settings/databases/settings.db "insert into global values(null, 'animator_duration_scale', '0.5');"
+			sleep 1
+			sqlite3 /data/data/com.android.providers.settings/databases/settings.db "insert into global values(null, 'window_animation_scale', '0.5');"
+			
+		# And don't execute twice
+		DBUPDATE=0
+	fi
+fi
+
 
 # I'm runonce script so let's clean everything and delete myself
 
@@ -134,12 +120,11 @@ rm -f /data/media/0/archidroid/UPDATE
 rm -f $0
 sysro
 
+
 # Execute hot reboot if we need it
 if [ $ADRELOAD -eq 1 ]; then
-	# For some reason Sammy doesn't like hot reboot so let's do it as usual
-	#killall system_server
 	sync
-	reboot
+	killall system_server
 fi
 
 # Finish
