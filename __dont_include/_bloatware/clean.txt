@@ -125,15 +125,10 @@ PhotoWall.apk
 TopicWall.apk
 WaterRipple.apk
 WeatherWall.apk
-Kies.apk
-kieswifi.apk
-/system/etc/kies
-/system/bin/kiesexe
 FaceLock.apk
 /system/lib/libfacelock_jni.so
 /system/vendor/pittpatt
 
-Stk.apk
 com.sec.pcw-1.apk
 voicetalk*.apk
 S-Voice_Android_phone.apk
