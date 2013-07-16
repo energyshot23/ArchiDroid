@@ -1,6 +1,8 @@
-ArchiDroid 2.0.1
-- Added Google Voice Search to AROMA
-- Updated (fixed) Archi's Powersave preset. It's now a default preset to provide maximum battery life. Balanced still available
-- Updated Spirit FM Radio to 29-06 version
-- Updated CrossBreeder to 7.2.13
-- Updated to Temasek V104.3
+ArchiDroid 1.6 [XXUFME7]
+- [!] Complete rewrite of aroma, file structure and ArchiDroid core based on newest ArchiDroid 2.X sources.
+# This means that nearly everything got changed and changelog would become too big if I wanted to list them all. It mostly covers aroma, available apps, tweaks, ArchiDroid init.d scripts and many more.
+
+- Powered by Android Revolution HD 32.0 [XXUFME7]
+- Modified and repacked stock kernel with init.d support based on Wanam's sources.
+- Added as many inverted apps as possible, they provide better battery life and newest updates.
+- GitHub support, compatible with universal ArchiDroid commits (backports)
