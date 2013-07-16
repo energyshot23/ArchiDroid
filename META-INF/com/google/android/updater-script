@@ -24,10 +24,10 @@ format("ext4", "EMMC", "/dev/block/mmcblk0p10", "0");
 set_progress(0.05);
 
 ui_print("root@ArchiDroid:~# Checking Partitions For Errors");
-run_program("/sbin/e2fsck", "-p", "/dev/block/mmcblk0p8");
-run_program("/sbin/e2fsck", "-p", "/dev/block/mmcblk0p9");
-run_program("/sbin/e2fsck", "-p", "/dev/block/mmcblk0p10");
-run_program("/sbin/e2fsck", "-p", "/dev/block/mmcblk0p12");
+#run_program("/sbin/e2fsck", "-p", "/dev/block/mmcblk0p8");
+#run_program("/sbin/e2fsck", "-p", "/dev/block/mmcblk0p9");
+#run_program("/sbin/e2fsck", "-p", "/dev/block/mmcblk0p10");
+#run_program("/sbin/e2fsck", "-p", "/dev/block/mmcblk0p12");
 
 set_progress(0.06);
 
@@ -468,7 +468,7 @@ set_progress(0.78);
 
 ### TOUCHPAL ###
 if file_getprop("/tmp/aroma-data/keyboard.prop","selected.0") == "1" then
-delete("/system/app/LatinIME.apk");
+delete("/system/app/SamsungIME.apk");
 ui_print("root@ArchiDroid:~# Installing TouchPal Keyboard");
 package_extract_dir("_archidroid/apps/touchpal", "/");
 endif;
@@ -476,14 +476,14 @@ endif;
 ### HACKERS ###
 if file_getprop("/tmp/aroma-data/keyboard.prop","selected.0") == "2" then
 ui_print("root@ArchiDroid:~# Installing Hacker's Keyboard");
-delete("/system/app/LatinIME.apk");
+delete("/system/app/SamsungIME.apk");
 package_extract_dir("_archidroid/apps/hackers", "/");
 endif;
 
 ### BOTH ###
 if file_getprop("/tmp/aroma-data/keyboard.prop","selected.0") == "3" then
 ui_print("root@ArchiDroid:~# Installing TouchPal + Hacker's Keyboard");
-delete("/system/app/LatinIME.apk");
+delete("/system/app/SamsungIME.apk");
 package_extract_dir("_archidroid/apps/touchpal", "/");
 package_extract_dir("_archidroid/apps/hackers", "/");
 endif;
@@ -506,7 +506,7 @@ if file_getprop("/tmp/aroma-data/launcher.prop","selected.0") == "1" then
 ui_print("");
 ui_print("");
 ui_print("root@ArchiDroid:~# Installing Nova Launcher");
-delete("/system/app/Trebuchet.apk");
+delete("/system/app/SecLauncher2.apk");
 package_extract_dir("_archidroid/apps/nova", "/");
 endif;
 
