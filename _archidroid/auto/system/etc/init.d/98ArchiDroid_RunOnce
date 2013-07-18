@@ -22,8 +22,8 @@ if [ -e /data/media/0/archidroid/INSTALL ]; then
 		cd /data/media/0/archidroid/firstboot/settings
 		ADMANY=`ls | wc -l`
 	fi
-	DBUPDATE=1 # We don't want DBUPDATE for now, XXUFME7 doesn't like it
-	ADRELOAD=1 # And so we don't need reload as well
+	DBUPDATE=1
+	ADRELOAD=1
 elif [ -e /data/media/0/archidroid/UPDATE ]; then
 	DBUPDATE=0
 	ADMANY=0

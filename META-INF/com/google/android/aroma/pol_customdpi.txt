@@ -1,5 +1,5 @@
 <@center><b>UWAGA!</b>
 
-Miej na uwadze fakt, że DPI inne niż 320 nie są jeszcze w pełni kompatybilne z Samsungowym Androidem 4.2.2. Dla najlepszego efektu wysoce zalecam launcher inny niż TouchWiz oraz klawiaturę inną niż Stock (np. Nova i TouchPal)
+Miej na uwadze fakt, że DPI inne niż 320 nie są jeszcze w pełni kompatybilne z Samsungowym Androidem 4.2.2. Dla najlepszego efektu wysoce zalecam launcher inny niż TouchWiz oraz klawiaturę inną niż Stock (np. Nova i TouchPal). Zalecam również instalację Xposed oraz App Settings.
 
-Możesz także dostrzec niewielkie błędy graficzne np. dialer wyświetlany wciąż w 320 DPI. Kontynuuj wyłącznie jeśli całkowicie rozumiesz możliwe problemy.
+Bez xposed możesz dostrzec niewielkie błędy graficzne np. dialer wyświetlany wciąż w 320 DPI. Kontynuuj wyłącznie jeśli całkowicie rozumiesz możliwe problemy.

@@ -157,7 +157,7 @@ PhaseBeam.apk
 PhotoTable.apk
 PhotoWall.apk
 TopicWall.apk
-WaterRipple.apk                             
+WaterRipple.apk
 WeatherWall.apk
 
 GoogleTTS.apk
