@@ -12,16 +12,16 @@
 # functions or other modifications. It's simple, makes my work faster and that's it.
 
 mkdir -p bloatware/system/app > /dev/null 2>&1
-cat clean.txt | grep ".apk" | while read line; do
+cat clean.txt | grep "\.apk" | while read line; do
 mv ../../system/app/$line bloatware/system/app/ > /dev/null 2>&1
 done
 
 mkdir -p bloatware/system/lib > /dev/null 2>&1
-cat clean.txt | grep ".so" | while read line; do
+cat clean.txt | grep "\.so" | while read line; do
 mv ../..$line bloatware/system/lib/ > /dev/null 2>&1
 done
 
-cat clean.txt | grep "/system/" | while read line; do
+cat clean.txt | grep "\/system\/" | while read line; do
 line2=`echo $line | egrep -o '^[^:]*/'`
 mkdir -p bloatware$line2 > /dev/null 2>&1
 mv ../..$line bloatware$line2/ > /dev/null 2>&1

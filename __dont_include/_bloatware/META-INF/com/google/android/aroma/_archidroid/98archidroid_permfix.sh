@@ -1,14 +1,17 @@
-#!/system/bin/sh
+#!/sbin/sh
 #
 # ArchiDroid Universal Fix Permissions Script
 # Coming from https://github.com/CyanogenMod/android_bootable_recovery/blob/jellybean/utilities/fix_permissions
 # Firstly we'll sleep for about 120 seconds to make sure everything is loaded
 # And delete script only if it ended successfully
+
+echo "ArchiDroid PermFix loaded successfully"
+
 VERSION="2.04"
 
 # Defaults
 DEBUG=0 # Debug off by default
-LOGGING=1 # Logging on by default
+LOGGING=0 # Logging on by default
 VERBOSE=1 # Verbose on by default
 
 # Messages
@@ -462,11 +465,8 @@ fi
 
 ### ArchiDroid Special
 
-# JKAY First
-$CHMOD 666 /data/data/com.jkaysoft.icsdeluxe/shared_prefs/com.jkaysoft.icsdeluxe.ThemeSettingsFile.xml > /dev/null 2>&1
-
-# Finished, remove now
-rm -f $0
-
 # End
 fp_end
+
+echo "Error Code 0, everything looks good! ArchiDroid PermFix done."
+exit 0
