@@ -1,0 +1,22 @@
+ArchiDroid 1.6 XXUFME7
+- [!] Full wipe is REQUIRED
+- [!] Complete rewrite of aroma, file structure and ArchiDroid core based on newest ArchiDroid 2.X sources.
+# This means that nearly everything got changed and changelog would become too big if I wanted to list them all. It mostly covers aroma, available apps, tweaks, ArchiDroid init.d scripts and many more. I'll list only most important things.
+
+- Revisited Bloatware
+# First of all list has been doubled in size. ArchiDroid has even less bloatware now. Second - I've added aroma to bloatware flashing with permfix and bunch of other nice features. Restoring bloatware never wasn't that easy!
+
+- Powered by Android Revolution HD 32.0 XXUFME7.
+- Modified and repacked stock kernel with init.d support based on Wanam's sources.
+- Added as many inverted apps as possible, they provide better battery life and newest updates. It includes also inverted Google Store in latest version with multi-dpi fixes. You don't need google store fixes anymore, hence it's deleted from xposed.
+- Bunch of fixes and improvements to ArchiDroid init.d.
+# Backported RunOnce from ArchiDroid 2.0.1. After first flash in install mode you can notice hot restart due to changes in the database - that's intended.
+
+- Installing Nova Launcher won't delete SecLauncher2.apk automatically now. New XXUFME7 doesn't like lack of TouchWiz (even if it's not used) and framework crashes.
+
+- GitHub support, compatible with universal ArchiDroid commits (backports) and all other features. Check 'GitHub' section for more details.
+
+# Additional few notes
+# I didn't list many new things because nobody would read changelog at all :). Remember that this release is a total rewrite of everything so far and personally I think it's much better than before. Hope you'll like it. Now ArchiDroid 2.X has a real challenge, ArchiDroid 1.X :).
+
+# Also please note that ArchiDroid is now ultra light in terms of bloatware. You can miss some things from stock or even past releases of AD. Use brand new revisited bloatware to easily restore what you want. I've tried to keep everything useful.
