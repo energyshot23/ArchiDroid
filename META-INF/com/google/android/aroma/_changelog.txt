@@ -1,5 +1,10 @@
 ArchiDroid 1.6.1 XXUFME7
 - [Backport] Improved ArchiDroid Update mode. Full Wipe recommended. Now ArchiDroid will overwrite apps with new versions instead of duplicating them (bug)
+- [Backport] Aroma presets from ArchiDroid 2.X
+# You can now flash ArchiDroid with default settings within only one tap. This is extremely useful if you don't want to change my settings because you don't need anymore to browse through all aroma pages.
+# It's still possible to select "Custom" preset and customize your installation of course.
+# Idea and implementation thanks to @mrtur, with dedicated preset specially for him.
+
 - Added Extended Framework tweak, credits to @11wallace11
 - Updated BetterBatteryStats to 1.14.0.0B2
 - Updated Nova to 2.2beta2 (it's a really nice update)
