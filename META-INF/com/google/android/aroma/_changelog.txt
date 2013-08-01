@@ -5,9 +5,11 @@ ArchiDroid 1.6.1 XXUFME7
 # It's still possible to select "Custom" preset and customize your installation of course.
 # Idea and implementation thanks to @mrtur, with dedicated preset specially for him.
 
+- Rewrited build.prop tweaks for less battery drain and better stability. Please take look at /system/build.prop after flashing, you can find very interesting tweaks there.
 - Added Extended Framework tweak, credits to @11wallace11. 3WayReboot, All apps MultiWindow and CRT-Off.
 - Updated BetterBatteryStats to 1.14.0.0B2
 - Updated Nova to 2.2beta2 (it's a really nice update)
 - Updated Adobe Flash Player to 11.1.115.69
 - Updated Google Play Store to 4.2.9 (Multi DPI Patched, Inverted)
 - SecOmaDownloadProvider and SecDownloadProviderUi have been restored from bloatware because of some misc problems with SecBrowser. Thanks to @jackq from forum.android.com.pl
+- Fixed inverted YouTube not working correctly on AD 1.X.
