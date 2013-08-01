@@ -118,5 +118,6 @@
 # <#selectbg_g>Yes</#>   Add build.prop Tweaks
 # <#selectbg_g>Yes</#>   Sund Beep
 # <#selectbg_g>Yes</#>   Bootanimation ArchiDroid
+# <#selectbg_g>Yes</#>   ExFramework
 
 If you agree, press <b><#selectbg_g>"Next"</#></b> and if you do not, press <b><#selectbg_g>"Back"</#></b>

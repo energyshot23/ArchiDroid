@@ -501,7 +501,7 @@ writetmpfile(
   "selected.0=1\n"
 );
 
-#  Google Calendar
+#  No Google Calendar
 #  Google Chrome
 #  Google Ears
 #  Google Keep
@@ -510,7 +510,7 @@ writetmpfile(
 #  Google Voice
 writetmpfile(
   "gapps.prop",
-  "item.0.1=1\n"+
+  "item.0.1=0\n"+
   "item.0.2=1\n"+
   "item.0.3=1\n"+
   "item.0.4=1\n"+
@@ -549,12 +549,14 @@ writetmpfile(
 # 1 build.prop Tweaks
 # 1 Sound Beep
 # 1 Bootanimation ArchiDroid
+# 1 ExFramework
 writetmpfile(
 "architweaks.prop",
   "item.0.1=1\n"+
   "item.0.2=1\n"+
   "item.0.3=1\n"+
-  "item.0.4=1\n"
+  "item.0.4=1\n"+
+  "item.0.5=1\n"
 );
 
 #############
@@ -711,12 +713,14 @@ writetmpfile(
 # 1 build.prop Tweaks
 # 1 Sound Beep
 # 1 Bootanimation ArchiDroid
+# 1 ExFramework
 writetmpfile(
 "architweaks.prop",
   "item.0.1=1\n"+
   "item.0.2=1\n"+
   "item.0.3=1\n"+
-  "item.0.4=1\n"
+  "item.0.4=1\n"+
+  "item.0.5=1\n"
 );
 
 endif;
