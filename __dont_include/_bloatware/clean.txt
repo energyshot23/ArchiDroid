@@ -4,7 +4,6 @@ com.sec.spp.push-1.apk
 Magnifier.apk
 Oma*.apk
 Personalization.apk
-SecOmaDownloadProvider.apk
 SecBluetooth.apk
 SimpleAlarmClock.apk
 SecWallpaperChooser.apk
@@ -168,7 +167,6 @@ S-Voice_Android_phone.apk
 /system/tts
 DirectShareManager.apk
 DttSupport.apk
-SecDownloadProviderUi.apk
 /system/preloaddata/SNote
 FaceLock.apk
 /system/lib/libfacelock_jni.so
