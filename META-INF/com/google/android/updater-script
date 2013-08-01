@@ -24,10 +24,10 @@ format("ext4", "EMMC", "/dev/block/mmcblk0p10", "0");
 set_progress(0.05);
 
 ui_print("root@ArchiDroid:~# Checking Partitions For Errors");
-#run_program("/sbin/e2fsck", "-p", "/dev/block/mmcblk0p8");
-#run_program("/sbin/e2fsck", "-p", "/dev/block/mmcblk0p9");
-#run_program("/sbin/e2fsck", "-p", "/dev/block/mmcblk0p10");
-#run_program("/sbin/e2fsck", "-p", "/dev/block/mmcblk0p12");
+run_program("/sbin/e2fsck", "-p", "/dev/block/mmcblk0p8");
+run_program("/sbin/e2fsck", "-p", "/dev/block/mmcblk0p9");
+run_program("/sbin/e2fsck", "-p", "/dev/block/mmcblk0p10");
+run_program("/sbin/e2fsck", "-p", "/dev/block/mmcblk0p12");
 
 set_progress(0.06);
 
