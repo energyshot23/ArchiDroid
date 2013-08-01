@@ -13,6 +13,7 @@ ArchiDroid 1.6.1 XXUFME7
 
 - Rewrited build.prop tweaks for less battery drain and better stability. Please take look at /system/build.prop after flashing, you can find very interesting tweaks there.
 - Added Extended Framework tweak, credits to @11wallace11. 3WayReboot, All apps MultiWindow and CRT-Off.
+- Updated DreamTheme to 2.2
 - Updated BetterBatteryStats to 1.14.0.0B2
 - Updated Nova to 2.2beta2 (it's a really nice update)
 - Updated Adobe Flash Player to 11.1.115.69
