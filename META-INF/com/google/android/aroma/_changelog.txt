@@ -5,7 +5,7 @@ ArchiDroid 1.6.1 XXUFME7
 # It's still possible to select "Custom" preset and customize your installation of course.
 # Idea and implementation thanks to @mrtur, with dedicated preset specially for him.
 
-- Added Extended Framework tweak, credits to @11wallace11
+- Added Extended Framework tweak, credits to @11wallace11. 3WayReboot, All apps MultiWindow and CRT-Off.
 - Updated BetterBatteryStats to 1.14.0.0B2
 - Updated Nova to 2.2beta2 (it's a really nice update)
 - Updated Adobe Flash Player to 11.1.115.69
