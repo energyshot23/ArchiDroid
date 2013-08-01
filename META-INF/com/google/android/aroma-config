@@ -1202,7 +1202,7 @@ checkbox(
   "HD Voice","Enables HD Voice if available",1,
   "Add build.prop Tweaks","Deeper sleep and disable debug to improve performance",1,
   "Beep Sound","Custom power on sound",1,
-  "ArchiDroid Bootanimation","Custom Bootanimation",1
+  "ArchiDroid Bootanimation","Custom Bootanimation",1,
   "Extended Framework","Adds support for CRT-Off/3WayReboot/MultiWindow",1
 );
 endif;
