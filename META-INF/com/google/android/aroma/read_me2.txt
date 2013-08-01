@@ -4,18 +4,12 @@ This Rom is based on many third-party roms, modifications, tweaks and other scri
 Please respect that this is NOT my work and all credits for these awesome things go to appropriate developers.
 
 @xda-developers.com
-- Temasek's Unofficial CM Build | temasek
-- Temasek's Kernel | temasek
+- Android Revolution HD | mike1986
+- Repacked Stock Kernel | Wanam
 - CrossBreeder | idcrisis
 - PhilZ Touch Recovery | Phil3759
 - AC!D Audio Technology | AC!D Team 
 - Xposed Framework | rovo89
-
-@yank555-lu.net
-- Yank555 Kernel | Yank555
-
-@cyanogenmod.org
-- CyanogenMod | CM Team
 
 
 Without them you wouldn't see ArchiDroid running, remember about that! =)
