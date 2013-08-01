@@ -2,5 +2,5 @@ ArchiDroid 1.6.1 XXUFME7
 - [Backport] Improved ArchiDroid Update mode. Full Wipe recommended. Now ArchiDroid will overwrite apps with new versions instead of duplicating them (bug)
 - Added Extended Framework tweak, credits to @11wallace11
 - Updated BetterBatteryStats to 1.14.0.0B2
-- Updated Nova to 2.2beta1 (it's a really nice update)
+- Updated Nova to 2.2beta2 (it's a really nice update)
 - Updated Adobe Flash Player to 11.1.115.69
