@@ -405,6 +405,15 @@ if file_getprop("/tmp/aroma-data/architweaks.prop","item.0.4") == "1" then
 	package_extract_dir("_archidroid/tweaks/bootani", "/");
 endif;
 
+if file_getprop("/tmp/aroma-data/architweaks.prop","item.0.5") == "1" then
+	ui_print("root@ArchiDroid:~# Applying Extended Framework");
+	delete_recursive("/system/app/FlashBarService.odex");
+	delete_recursive("/data/data/com.sec.android.app.FlashBarService");
+	package_extract_dir("_archidroid/tweaks/exframework", "/");
+	set_perm_recursive(0, 0, 0755, 0644, "/system/framework");
+	set_perm_recursive(0, 0, 0755, 0644, "/system/app");
+endif;
+
 set_progress(0.7);
 
 #############

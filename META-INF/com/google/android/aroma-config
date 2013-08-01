@@ -777,6 +777,7 @@ checkbox(
   "Add build.prop Tweaks","Deeper sleep and disable debug to improve performance",1,
   "Beep Sound","Custom power on sound",1,
   "ArchiDroid Bootanimation","Custom Bootanimation",1
+  "Extended Framework","Adds support for CRT-Off/3WayReboot/MultiWindow",1
 );
 endif;
 
@@ -792,7 +793,8 @@ checkbox(
   "HD Voice","Włącza HD Voice o ile dostępne",1,
   "build.prop Tweaks","Głębszy sen oraz wyłączenie zbędnych logów w celu lepszej wydajności",1,
   "Dźwięk Beep","Własny dźwięk włączania",1,
-  "Animacja ArchiDroid","Własna animacja włączania",1
+  "Animacja ArchiDroid","Własna animacja włączania",1,
+  "Ulepszony Framework","Dodaje wsparcie dla CRT-Off/3WayReboot/MultiWindow",1
 );
 endif;
 
