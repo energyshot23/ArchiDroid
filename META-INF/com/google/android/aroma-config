@@ -489,6 +489,12 @@ writetmpfile(
   "item.0.2=0\n"
 );
 
+#  No Modem
+writetmpfile(
+  "modem.prop",
+  "selected.0=3\n"
+);
+
 #  No Recovery
 writetmpfile(
   "recovery.prop",
@@ -651,6 +657,12 @@ writetmpfile(
   "xposed2.prop",
   "item.0.1=1\n"+
   "item.0.2=0\n"
+);
+
+#  No Modem
+writetmpfile(
+  "modem.prop",
+  "selected.0=3\n"
 );
 
 #  No Recovery
@@ -894,6 +906,17 @@ checkbox(
 endif;
 
 selectbox(
+  "Modem",
+  "Which modem would you like to use?",
+  "icons/modem",
+  "modem.prop",
+
+  "XXUFME7","EFS V1",0,
+  "XXEMG4","EFS V2",0,
+  "No Modem","If you want to preserve your old modem",1
+);
+
+selectbox(
   "Recovery",
   "Which recovery would you like to flash?",
   "icons/apps",
@@ -1071,6 +1094,17 @@ checkbox(
   "Call Recording","Włącza możliwość nagrywania rozmów",0
 );
 endif;
+
+selectbox(
+  "Modem",
+  "Który modem chciałbyś sflashować?",
+  "icons/modem",
+  "modem.prop",
+
+  "XXUFME7","EFS V1",0,
+  "XXEMG4","EFS V2",0,
+  "Żaden","Jeśli chcesz pozostać przy swoim aktualnym modemie",1
+);
 
 selectbox(
   "Recovery",

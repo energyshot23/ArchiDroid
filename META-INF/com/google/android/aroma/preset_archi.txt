@@ -74,6 +74,13 @@
 # No   Call Recording
 
 ##################
+#  Modem
+#
+# No   XXUFME7
+# No   XXEMG4
+# <#selectbg_g>Yes</#> Keep Old Modem
+
+##################
 #  Recovery
 #
 # No   PhilZ Touch Recovery
