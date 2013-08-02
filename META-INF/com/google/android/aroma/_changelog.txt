@@ -19,5 +19,6 @@ ArchiDroid 1.6.1 XXUFME7
 - Updated Adobe Flash Player to 11.1.115.69
 - Updated Google Play Store to 4.2.9 (Multi DPI Patched, Inverted)
 - Updated Titanium Backup to 6.1.0
+- Updated MXPlayer to 1.7.16
 - SecOmaDownloadProvider and SecDownloadProviderUi have been restored from bloatware because of some misc problems with SecBrowser. Thanks to @jackq from forum.android.com.pl
 - Fixed inverted YouTube not working correctly on AD 1.X.
