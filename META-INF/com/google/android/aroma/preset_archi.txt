@@ -95,7 +95,7 @@
 ##################
 #  Google Apps
 #
-# <#selectbg_g>Yes</#>   Google Calendar
+# No   Google Calendar
 # <#selectbg_g>Yes</#>   Google Chrome
 # <#selectbg_g>Yes</#>   Google Ears
 # <#selectbg_g>Yes</#>   Google Keep

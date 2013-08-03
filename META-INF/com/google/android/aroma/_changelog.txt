@@ -1,26 +1,2 @@
-ArchiDroid 1.6.1 XXUFME7
-FULL WIPE REQUIRED
-
-- [Backport] Improved ArchiDroid Update mode. FULL WIPE REQUIRED. Now ArchiDroid will overwrite apps with new versions instead of duplicating them (bug)
-- [Backport] Aroma presets from ArchiDroid 2.X
-# You can now flash ArchiDroid with default settings within only one tap. This is extremely useful if you don't want to change my settings because you don't need anymore to browse through all aroma pages.
-# It's still possible to select "Custom" preset and customize your installation of course.
-# Idea and implementation thanks to @mrtur, with dedicated preset specially for him.
-
-- [Backport] [!] New modem: XXEMG4
-# IMPORTANT! From this release ArchiDroid will preserve your old modem on default installation preset. This is because Samsung developed a new lane of modems, from XXEMG4 onwards.
-# Modems pre-XXEMG4 and XXEMG4+ aren't compatible with each other! Applying modem XXEMG4 for the first time will cause permanent EFS changes from V1 to V2. This means you won't be able to use older modems that XXEMG4 from that time.
-# This may sounds scary but in fact new modem is way better than old ones and EFS change is required for that to function properly. But it includes changes to /efs and because of that I strongly recommend doing an /efs backup if you don't have such already. Then you can easily select custom preset and XXEMG4 modem to apply, without risking anything.
-# It will be ALWAYS possible to select "No Modem" in ArchiDroid to keep your current modem. But I can't assure you that this option will remain default one. Because of that keep in mind to get familiar with new modem in meantime to avoid getting frustrated .
-
-- [Backport] Rewrited build.prop tweaks for less battery drain and better stability based on ArchiDroid 2.0.3. Please take look at /system/build.prop after flashing, you can find very interesting tweaks there.
-- Added Extended Framework tweak, credits to @11wallace11. 3WayReboot, All apps MultiWindow and CRT-Off.
-- Updated DreamTheme to 2.2
-- Updated BetterBatteryStats to 1.14.0.0B2
-- Updated Nova to 2.2beta4 (it's a really nice update)
-- Updated Adobe Flash Player to 11.1.115.69
-- Updated Google Play Store to 4.2.9 (Multi DPI Patched, Inverted)
-- Updated Titanium Backup to 6.1.0
-- Updated MXPlayer to 1.7.16
-- SecOmaDownloadProvider and SecDownloadProviderUi have been restored from bloatware because of some misc problems with SecBrowser. Thanks to @jackq from forum.android.com.pl
-- Fixed inverted YouTube not working correctly on AD 1.X.
+ArchiDroid 1.6.3 XXUFME7
+- Misc fixes to aroma

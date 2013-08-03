@@ -44,10 +44,10 @@
 #
 ini_set("dp","3");
 ini_set("rom_name",             "ArchiDroid");
-ini_set("rom_version",          "1.6.1");
+ini_set("rom_version",          "1.6.2");
 ini_set("rom_author",           "JustArchi");
 ini_set("rom_device",           "Samsung Galaxy S3");
-ini_set("rom_date",             "August 3rd, 2013");
+ini_set("rom_date",             "August XXth, 2013");
 
 ##
 # Show Simple Splash
@@ -1141,7 +1141,7 @@ checkbox(
   "icons/apps",
   "gapps.prop",
 
-  "Google Calendar","",1,
+  "Google Calendar","",0,
   "Google Chrome","",1,
   "Google Ears","",1,
   "Google Keep","",1,
@@ -1159,7 +1159,7 @@ checkbox(
   "icons/apps",
   "gapps.prop",
 
-  "Google Calendar","",1,
+  "Google Calendar","",0,
   "Google Chrome","",1,
   "Google Ears","",1,
   "Google Keep","",1,
