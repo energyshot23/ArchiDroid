@@ -102,6 +102,7 @@
 # <#selectbg_g>Yes</#>   Google Mail
 # <#selectbg_g>Yes</#>   Google Maps
 # <#selectbg_g>Yes</#>   Google Voice
+# No   Google Hangouts
 
 ##################
 #  ArchiDroid Apps

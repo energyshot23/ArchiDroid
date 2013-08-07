@@ -514,6 +514,7 @@ writetmpfile(
 #  Google Mail
 #  Google Maps
 #  Google Voice
+#  No Google Hangouts
 writetmpfile(
   "gapps.prop",
   "item.0.1=0\n"+
@@ -522,7 +523,8 @@ writetmpfile(
   "item.0.4=1\n"+
   "item.0.5=1\n"+
   "item.0.6=1\n"+
-  "item.0.7=1\n"
+  "item.0.7=1\n"+
+  "item.0.8=0\n"
 );
 
 # 1   Titanium Backup
@@ -684,6 +686,7 @@ writetmpfile(
 #  Google Mail
 #  Google Maps
 #  Google Voice
+#  No Google Hangouts
 writetmpfile(
   "gapps.prop",
   "item.0.1=1\n"+
@@ -692,7 +695,8 @@ writetmpfile(
   "item.0.4=0\n"+
   "item.0.5=0\n"+
   "item.0.6=0\n"+
-  "item.0.7=1\n"
+  "item.0.7=1\n"+
+  "item.0.8=0\n"
 );
 
 # 1   Titanium Backup
@@ -1147,7 +1151,8 @@ checkbox(
   "Google Keep","",1,
   "Google Mail","",1,
   "Google Maps","",1,
-  "Google Voice","",1
+  "Google Voice","",1,
+  "Google Hangouts","",0
 );
 endif;
 
@@ -1165,7 +1170,8 @@ checkbox(
   "Google Keep","",1,
   "Google Mail","",1,
   "Google Maps","",1,
-  "Google Voice","",1
+  "Google Voice","",1,
+  "Google Hangouts","",0
 );
 endif;
 
