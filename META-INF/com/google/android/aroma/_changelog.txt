@@ -1,6 +1,7 @@
 ArchiDroid 1.6.2 XXUFME7
 - [Backport] Added inverted Google Hangouts to Google Apps, disabled in default preset
 - Updated MXPlayer to 1.7.17
+- Updated BetterBatteryStats to 1.14.0.0RC1
 - Updated LMT to 1.912
 - Updated Nova to 2.2
 - Updated Google Store to 4.3.10 (Multi-DPI Patched, Inverted)
