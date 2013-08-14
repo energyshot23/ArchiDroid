@@ -421,24 +421,6 @@ writetmpfile(
   "selected.0=1\n"
 );
 
-#  AC!D Audio Technology
-writetmpfile(
-  "acid.prop",
-  "selected.0=1\n"
-);
-
-#  AudioBeats
-writetmpfile(
-  "acid2.prop",
-  "selected.0=1\n"
-);
-
-#  Audio Preset Archi's Audiophile
-writetmpfile(
-  "preset.prop",
-  "selected.0=1\n"
-);
-
 #  240 DPI
 writetmpfile(
   "dpi.prop",
@@ -590,24 +572,6 @@ textbox(
 #  Kernel STOCK
 writetmpfile(
   "kernels.prop",
-  "selected.0=1\n"
-);
-
-#  AC!D Audio Technology
-writetmpfile(
-  "acid.prop",
-  "selected.0=1\n"
-);
-
-#  AudioBeats
-writetmpfile(
-  "acid2.prop",
-  "selected.0=1\n"
-);
-
-#  Audio Preset Archi's Audiophile
-writetmpfile(
-  "preset.prop",
   "selected.0=1\n"
 );
 
@@ -764,51 +728,6 @@ selectbox(
 );
 
 selectbox(
-  "AC!D Audio Technology",
-  "Would you like also to enhance audio quality?",
-  "icons/apps",
-  "acid.prop",
-
-  "Yes","Highly recommended. We'll install AC!D Audio Technology",1,
-  "No","Will not install AC!D Audio Technology",0
-);
-
-if file_getprop("/tmp/aroma-data/acid.prop","selected.0") != "2" then
-selectbox(
-  "AC!D Core",
-  "Which AC!D mode would you like to use?",
-  "icons/apps",
-  "acid2.prop",
-
-  "AudioBeats","Highly recommended for best audio experience.",1,
-  "ClearAudio [EXPERIMENTAL]","Comes as an alternative to AudioBeats. Not recommended due to bad implementation and possible future problems",0
-);
-else
-	writetmpfile(
-	  "acid2.prop",
-	  "selected.0=3\n"
-	);
-endif;
-
-if file_getprop("/tmp/aroma-data/acid2.prop","selected.0") == "1" then
-selectbox(
-  "Audio Preset",
-  "Which audio preset would you like to use?",
-  "icons/apps",
-  "preset.prop",
-
-  "Archi's Audiophile Preset","Highly recommended. It enhances audio quality by tweaking AudioBeats and Boeffla SC using Archi's taste",1,
-  "No Preset","Not recommended. You'll miss most features provided by AudioBeats. Use it only if you want to create your own preset later",0
-);
-else
-	writetmpfile(
-	  "preset.prop",
-	  "selected.0=2\n"
-	);
-endif;
-
-
-selectbox(
   "DPI",
   "How many DPI would you like to use?",
   "icons/personalize",
@@ -952,51 +871,6 @@ selectbox(
 
   "Stock","Jedyny dostępny do czasu oficjalnego wydania",1
 );
-
-selectbox(
-  "AC!D Audio Technology",
-  "Czy chciałbyś poprawić jakość audio?",
-  "icons/apps",
-  "acid.prop",
-
-  "Tak","Wysoce zalecane. Zainstaluję AC!D Audio Technology",1,
-  "Nie","Nie zainstaluję AC!D Audio Technology",0
-);
-
-if file_getprop("/tmp/aroma-data/acid.prop","selected.0") != "2" then
-selectbox(
-  "AC!D Core",
-  "Którego trybu AC!D chciałbyś użyć?",
-  "icons/apps",
-  "acid2.prop",
-
-  "AudioBeats","Wysoce zalecane dla najlepszych doznań audio.",1,
-  "ClearAudio [EXPERIMENTAL]","Alternatywa dla AudioBeats. Niezalecane z powodu złej implementacji i możliwych problemów",0
-);
-else
-	writetmpfile(
-	  "acid2.prop",
-	  "selected.0=3\n"
-	);
-endif;
-
-if file_getprop("/tmp/aroma-data/acid2.prop","selected.0") == "1" then
-selectbox(
-  "Audio Preset",
-  "Którego presetu audio chciałbyś użyć?",
-  "icons/apps",
-  "preset.prop",
-
-  "Preset Archi's Audiophile","Wysoce zalecany. Poprawia jakość dźwięku poprzez ustawienia AudioBeats wg. gustu Archiego",1,
-  "Brak Presetu","Niezalecane z powodu utraty wielu funkcji. Wybierz wyłącznie jeśli chcesz stworzyć swój własny preset później",0
-);
-else
-	writetmpfile(
-	  "preset.prop",
-	  "selected.0=2\n"
-	);
-endif;
-
 
 selectbox(
   "DPI",

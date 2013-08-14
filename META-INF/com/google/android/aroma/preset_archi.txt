@@ -6,12 +6,6 @@
 # <#selectbg_g>Yes</#>   STOCK
 
 ##################
-#  Audio Preset
-#
-# <#selectbg_g>Yes</#>   Archi's Audiophile Preset
-# No   Preset
-
-##################
 #  DPI
 #
 # <#selectbg_g>Yes</#>   240 DPI
