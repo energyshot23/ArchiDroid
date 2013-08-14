@@ -7,4 +7,5 @@ ArchiDroid 1.6.2 XXUFME7
 - Updated LMT to 1.912
 - Updated Nova to 2.2
 - Updated Google Store to 4.3.10 (Multi-DPI Patched, Inverted)
+- Updated Aroma to 2.70 RC1
 - Misc fixes to aroma
