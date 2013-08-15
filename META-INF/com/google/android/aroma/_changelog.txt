@@ -16,7 +16,7 @@ ArchiDroid 1.6.2 XXUFME7
 - Updated BetterBatteryStats to 1.14.0.0RC1
 - Updated LMT to 1.912
 - Updated TouchPal Keyboard to 5.4.4.1
-- Updated Nova to 2.2
+- Updated Nova to 2.2.1beta1
 - Updated Google Store to 4.3.11 (Multi-DPI Patched, Inverted)
 - Updated Aroma to 2.70 RC1
 - Misc fixes to aroma
