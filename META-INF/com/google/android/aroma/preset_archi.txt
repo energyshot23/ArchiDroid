@@ -91,7 +91,7 @@
 #
 # <#selectbg_g>Yes</#>   Titanium Backup
 # No   ZRAM Status
-# No   Greenify
+# <#selectbg_g>Yes</#>   Greenify
 # <#selectbg_g>Yes</#>   LMT
 # <#selectbg_g>Yes</#>   MXPlayer
 # <#selectbg_g>Yes</#>   BetterBatteryStats
