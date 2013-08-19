@@ -86,4 +86,13 @@ rm $FILE
 ### BUILD.PROP UPDATE ###
 #########################
 
+<<<<<<< HEAD
+=======
+#################
+### BLOATWARE ###
+rm ../system/app/CMUpdater.apk
+### BLOATWARE ###
+#################
+
+bash openpdroid.sh
 exit 0
