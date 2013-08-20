@@ -1,8 +1,11 @@
 #!/bin/bash
 # ArchiDroid build.sh Helper
 
-WERSJA="ro.build.display.id=ArchiDroid 1.6.1 XXUFME7"
-OTA="echo \"updateme.version=1.6.1\" >> /system/build.prop"
+# Not Disabled
+#exit 1
+
+WERSJA="ro.build.display.id=ArchiDroid 1.6.2 XXUFME7"
+OTA="echo \"updateme.version=1.6.2\" >> /system/build.prop"
 DENSITY="#ro.sf.lcd_density=320"
 
 function zamien {
@@ -21,9 +24,36 @@ function zamien {
 	rm $FILEO
 }
 
+cd ..
+unzip cm-*.zip -d __newtemasek
+rm -Rf system/
+cd __newtemasek
+for i in `ls` ; do
+	if [ $i != "META-INF" ]; then
+		cp -R $i ..
+	fi
+done
+cd ..
+OLD=`md5sum __dont_include/_updater-scripts/temasek/updater-script | awk '{print $1}'`
+NEW=`md5sum __newtemasek/META-INF/com/google/android/updater-script | awk '{print $1}'`
+
+if [ $OLD != $NEW ]; then
+	echo "Warning! New $NEW does not equal old $OLD."
+	echo "Probably just symlink or permissions stuff"
+	diff __dont_include/_updater-scripts/temasek/updater-script __newtemasek/META-INF/com/google/android/updater-script
+	cp __newtemasek/META-INF/com/google/android/updater-script __dont_include/_updater-scripts/temasek/updater-script
+	read -p "Tell me when you're done, master!" -n1 -s
+else
+	echo "MD5 Sums matches, no further action required, automatic mode goes on..."
+fi
+sleep 3
+rm -Rf __newtemasek
+rm -f cm-*.zip
+
+cd __dont_include/
 # Bo CM tez ma syf...
-rm -rf bloatware/
-mkdir -p bloatware/system/app
+#rm -rf bloatware/
+#mkdir -p bloatware/system/app
 #mv ../system/app/CellBroadcastReceiver.apk bloatware/system/app
 #TODO uzupelnic syf
 
@@ -86,13 +116,11 @@ rm $FILE
 ### BUILD.PROP UPDATE ###
 #########################
 
-<<<<<<< HEAD
-=======
 #################
 ### BLOATWARE ###
-rm ../system/app/CMUpdater.apk
+#rm -f ../system/app/CMUpdater.apk
 ### BLOATWARE ###
 #################
 
-bash openpdroid.sh
+#bash openpdroid.sh
 exit 0
