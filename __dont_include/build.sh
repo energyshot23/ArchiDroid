@@ -24,6 +24,7 @@ function zamien {
 	rm $FILEO
 }
 
+<<NOPE
 cd ..
 unzip cm-*.zip -d __newtemasek
 rm -Rf system/
@@ -51,6 +52,7 @@ rm -Rf __newtemasek
 rm -f cm-*.zip
 
 cd __dont_include/
+NOPE
 # Bo CM tez ma syf...
 #rm -rf bloatware/
 #mkdir -p bloatware/system/app
