@@ -2,11 +2,11 @@
 cd ..
 
 # Let's make it more universal (also benefit temasek's users) because I'm not using updater-script anyway
-cp META-INF/com/google/android/updater-script updater-script-archi
-cp __dont_include/_updater-scripts/temasek/updater-script META-INF/com/google/android/updater-script
+#cp META-INF/com/google/android/updater-script updater-script-archi
+#cp __dont_include/_updater-scripts/temasek/updater-script META-INF/com/google/android/updater-script
 zip -0 -r rom.zip system META-INF
-cp updater-script-archi META-INF/com/google/android/updater-script
-rm -f updater-script-archi
+#cp updater-script-archi META-INF/com/google/android/updater-script
+#rm -f updater-script-archi
 # That was easy, eh? ;)
 
 # Cleanup, updates and patching
