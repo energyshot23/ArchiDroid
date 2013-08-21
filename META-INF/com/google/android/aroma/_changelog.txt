@@ -34,7 +34,7 @@ ArchiDroid 1.6.2 XXUFME7
 - Updated many inverted apps - facebook and messenger, google chrome/keep/mail/maps/calendar, youtube
 - Updated SuperUser by koush to 1.0.2.1
 - Updated CoolTool to 5.0 with a few nice modifications to ArchiDroid preset
-- Updated MXPlayer to 1.7.17
+- Updated MXPlayer to 1.7.18
 - Updated BetterBatteryStats to 1.14.0.0RC1
 - Updated LMT to 1.912
 - Updated TouchPal Keyboard to 5.4.4.1
