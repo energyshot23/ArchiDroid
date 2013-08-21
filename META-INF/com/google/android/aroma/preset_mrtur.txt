@@ -82,9 +82,9 @@
 # No   Google Keep
 # No   Google Mail
 # No   Google Maps
-# <#selectbg_g>Yes</#>   Google Voice
+# No   Google Voice
 # No   Google Hangouts
-# No   Google Now
+# <#selectbg_g>Yes</#>   Google Now
 # No   Google Plus
 
 ##################
@@ -94,7 +94,7 @@
 # No   ZRAM Status
 # <#selectbg_g>Yes</#>   Greenify
 # No   LMT
-# No   MXPlayer
+# <#selectbg_g>Yes</#>   MXPlayer
 # No   BetterBatteryStats
 # No   CoolTool
 # No   Root Browser
@@ -109,6 +109,6 @@
 # <#selectbg_g>Yes</#>   Add build.prop Tweaks
 # <#selectbg_g>Yes</#>   Sund Beep
 # <#selectbg_g>Yes</#>   Bootanimation ArchiDroid
-# <#selectbg_g>Yes</#>   ExFramework
+# No   ExFramework
 
 If you agree, press <b><#selectbg_g>"Next"</#></b> and if you do not, press <b><#selectbg_g>"Back"</#></b>
