@@ -24,10 +24,14 @@ ArchiDroid 1.6.2 XXUFME7
 # Please note that such backups have a few kilobytes and I've implemented it only to ensure your safety, so maybe someday you'll say "ArchiDroid saved my Galaxy S3!" ;)
 # I strongly suggest keeping these backups even if someday you decide to delete ArchiDroid completely.
 
-# This includes also removing of option /efs backup from aroma because it's pointless now. 
+* This includes also removing of option /efs backup from aroma because it's pointless now. 
 
-
+- [Backport] Implemented new DBUPDATE handling into ArchiDroid_RunOnce, which updates database faster and in optimized way during ArchiDroid Install. Initial idea by @idcrisis
+- [Backport] Updated build.prop tweaks with a few new tweakable values and enabled deeper sleep (once again)
 - [Backport] Added inverted Google Hangouts to Google Apps, disabled in default preset
+- [Backport] Added requested Google Now (inverted) to Google Apps aroma page. Disabled by default
+- [Backport] Added requested Google Plus (inverted) to Google Apps aroma page. Disabled by default
+- Updated many inverted apps - facebook and messenger, google chrome/keep/mail/maps/calendar, youtube
 - Updated SuperUser by koush to 1.0.2.1
 - Updated CoolTool to 5.0 with a few nice modifications to ArchiDroid preset
 - Updated MXPlayer to 1.7.17
