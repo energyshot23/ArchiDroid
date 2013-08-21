@@ -23,7 +23,7 @@ format("ext4", "EMMC", "/dev/block/mmcblk0p8", "0");
 format("ext4", "EMMC", "/dev/block/mmcblk0p9", "0");
 format("ext4", "EMMC", "/dev/block/mmcblk0p10", "0");
 
-set_progress(0.05);
+set_progress(0.03);
 
 ui_print("root@ArchiDroid:~# Checking Partitions For Errors");
 run_program("/sbin/e2fsck", "-p", "/dev/block/mmcblk0p8");
@@ -31,52 +31,64 @@ run_program("/sbin/e2fsck", "-p", "/dev/block/mmcblk0p9");
 run_program("/sbin/e2fsck", "-p", "/dev/block/mmcblk0p10");
 run_program("/sbin/e2fsck", "-p", "/dev/block/mmcblk0p12");
 
-set_progress(0.06);
+set_progress(0.04);
 
 ui_print("root@ArchiDroid:~# Mounting Partitions");
 assert(mount("ext4", "EMMC", "/dev/block/mmcblk0p9", "/system") || ui_print("(system is mounted already)"));
 assert(mount("ext4", "EMMC", "/dev/block/mmcblk0p12", "/data") || ui_print("(data is mounted already)"));
 
-set_progress(0.07);
+
 package_extract_file("_archidroid/scripts/bash", "/tmp/bash");
 set_perm(0, 0, 0777, "/tmp/bash");
 
 if file_getprop("/tmp/aroma-data/wipe.prop","selected.0") == "1" then
+set_progress(0.05);
 	ui_print("root@ArchiDroid:~# Formatting /data excluding /data/media");
 	package_extract_file("_archidroid/scripts/wipe.sh", "/tmp/wipe.sh");
 	set_perm(0, 0, 0777, "/tmp/wipe.sh");
 	run_program("/tmp/wipe.sh");
 endif;
 
-set_progress(0.08);
+
 
 if file_getprop("/tmp/aroma-data/wipe.prop","selected.0") == "2" then
+set_progress(0.05);
 	ui_print("root@ArchiDroid:~# Cleaning cache, dalvik cache and resource cache");
 	delete_recursive("/data/dalvik-cache");
 	delete_recursive("/dalvik/dalvik-cache");
 	delete_recursive("/data/resource-cache");
 endif;
 
+set_progress(0.06);
 ui_print("root@ArchiDroid:~# Executing Archi's Scripts");
+set_progress(0.07);
+ui_print("root@ArchiDroid:~# extract media2zero.sh");
 package_extract_file("_archidroid/scripts/media2zero.sh", "/tmp/media2zero.sh");
 set_perm(0, 0, 0777, "/tmp/media2zero.sh");
+set_progress(0.08);
+ui_print("root@ArchiDroid:~# run media2zero.sh");
 run_program("/tmp/media2zero.sh");
 
 sleep (1);
-
+set_progress(0.09);
+ui_print("root@ArchiDroid:~# extract archidroid.sh");
 package_extract_file("_archidroid/scripts/archidroid.sh", "/tmp/archidroid.sh");
 set_perm(0, 0, 0777, "/tmp/archidroid.sh");
 
 if file_getprop("/tmp/aroma-data/wipe.prop","selected.0") == "1" then
+set_progress(0.1);
+ui_print("root@ArchiDroid:~# Executing archidroid.sh -> install");
 	run_program("/tmp/archidroid.sh", "install");
 endif;
 if file_getprop("/tmp/aroma-data/wipe.prop","selected.0") == "2" then
+set_progress(0.1);
+ui_print("root@ArchiDroid:~# Executing archidroid.sh -> update");
 	run_program("/tmp/archidroid.sh", "update");
 endif;
 
-set_progress(0.09);
 
-set_progress(0.1);
+
+set_progress(0.2);
 
 ui_print("root@ArchiDroid:~# Flashing ArchiDroid Core");
 show_progress(0.4, 1139);
