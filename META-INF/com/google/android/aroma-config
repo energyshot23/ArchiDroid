@@ -622,9 +622,9 @@ writetmpfile(
 #  No Google Keep
 #  No Google Mail
 #  No Google Maps
-#  Google Voice
+#  No Google Voice
 #  No Google Hangouts
-#  No Google Now
+#  Google Now
 #  No Google Plus
 writetmpfile(
   "gapps.prop",
@@ -634,9 +634,9 @@ writetmpfile(
   "item.0.4=0\n"+
   "item.0.5=0\n"+
   "item.0.6=0\n"+
-  "item.0.7=1\n"+
+  "item.0.7=0\n"+
   "item.0.8=0\n"+
-  "item.0.9=0\n"+
+  "item.0.9=1\n"+
   "item.0.10=0\n"
 );
 
@@ -644,7 +644,7 @@ writetmpfile(
 # 0   ZRAM Status
 # 1   Greenify
 # 0   LMT
-# 0   MXPlayer
+# 1   MXPlayer
 # 0   BetterBatteryStats
 # 0   CoolTool
 # 0   Root Browser
@@ -657,7 +657,7 @@ writetmpfile(
   "item.0.2=0\n"+
   "item.0.3=1\n"+
   "item.0.4=0\n"+
-  "item.0.5=0\n"+
+  "item.0.5=1\n"+
   "item.0.6=0\n"+
   "item.0.7=0\n"+
   "item.0.8=0\n"+
@@ -670,14 +670,14 @@ writetmpfile(
 # 1 build.prop Tweaks
 # 1 Sound Beep
 # 1 Bootanimation ArchiDroid
-# 1 ExFramework
+# 0 ExFramework
 writetmpfile(
 "architweaks.prop",
   "item.0.1=1\n"+
   "item.0.2=1\n"+
   "item.0.3=1\n"+
   "item.0.4=1\n"+
-  "item.0.5=1\n"
+  "item.0.5=0\n"
 );
 
 endif;
