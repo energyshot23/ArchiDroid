@@ -174,8 +174,8 @@ sleep 10
 
 # NOTICE
 # ArchiDroid has sysro/sysrw support, change that to remount system rw if needed
-rm -f /data/media/0/archidroid/INSTALL
-rm -f /data/media/0/archidroid/UPDATE
+rm -f /data/media/0/ArchiDroid/INSTALL
+rm -f /data/media/0/ArchiDroid/UPDATE
 rm -Rf /data/media/0/ArchiDroid/FIRSTBOOT
 sysrw
 rm -f $0

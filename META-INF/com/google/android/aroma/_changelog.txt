@@ -43,5 +43,6 @@ ArchiDroid 1.6.2 XXUFME7
 - Greenify is now enabled in default preset
 - Updated Google Store to 4.3.11 (Multi-DPI Patched, Inverted)
 - Updated Aroma to 2.70 RC1
+- Updated PhilZ Touch Recovery to 5.11.2
 - Misc fixes to aroma
-- Other minot fixes and improvements
+- Other minor fixes and improvements
