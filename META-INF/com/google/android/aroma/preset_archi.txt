@@ -58,7 +58,6 @@
 ##################
 #  Modem
 #
-# No   XXUFME7
 # No   XXEMG4
 # <#selectbg_g>Yes</#> Keep Old Modem
 
