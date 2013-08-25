@@ -177,6 +177,7 @@ sleep 10
 rm -f /data/media/0/ArchiDroid/INSTALL
 rm -f /data/media/0/ArchiDroid/UPDATE
 rm -Rf /data/media/0/ArchiDroid/FIRSTBOOT
+rm -Rf /data/media/0/vrtheme-backup
 sysrw
 rm -f $0
 sysro
