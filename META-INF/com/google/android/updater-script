@@ -1,11 +1,11 @@
 #
 # Updater-script for ArchiDroid
 #
-ui_print(">>> ArchiDroid is now loading...");
+ui_print(">>>ArchiDroid is now loading...");
 sleep (1);
 assert(getprop("ro.product.device") == "m0" || getprop("ro.build.product") == "m0" || 
-       getprop("ro.product.device") == "i9300" || getprop("ro.build.product") == "i9300" || 
-       getprop("ro.product.device") == "GT-I9300" || getprop("ro.build.product") == "GT-I9300");
+ getprop("ro.product.device") == "i9300" || getprop("ro.build.product") == "i9300" || 
+ getprop("ro.product.device") == "GT-I9300" || getprop("ro.build.product") == "GT-I9300");
 ui_print("root@ArchiDroid:~# Ready!");
 set_progress(0.01);
 sleep (2);
@@ -722,7 +722,7 @@ assert(unmount("/data") || ui_print("(data is unmounted already)"));
 assert(unmount("/system") || ui_print("(system is unmounted already)"));
 
 ui_print("===================================");
-ui_print("  ArchiDroid Flashed Successfully  ");
+ui_print(" ArchiDroid Flashed Successfully ");
 ui_print("Please share your experience on XDA");
 ui_print("===================================");
 run_program("/sbin/busybox", "cp", "/tmp/recovery.log", "/sdcard/recovery.log");
