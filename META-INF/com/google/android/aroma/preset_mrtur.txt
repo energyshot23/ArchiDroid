@@ -57,9 +57,8 @@
 ##################
 #  Modem
 #
-# No   XXUFME7
-# <#selectbg_g>Yes</#>   XXEMG4
-# No   Keep Old Modem
+# No   XXEMG4
+# <#selectbg_g>Yes</#>   Keep Old Modem
 
 ##################
 #  Recovery

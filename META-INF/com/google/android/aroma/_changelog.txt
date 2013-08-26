@@ -31,6 +31,8 @@ ArchiDroid 1.6.2 XXUFME7
 - [Backport] Added inverted Google Hangouts to Google Apps, disabled in default preset
 - [Backport] Added requested Google Now (inverted) to Google Apps aroma page. Disabled by default
 - [Backport] Added requested Google Plus (inverted) to Google Apps aroma page. Disabled by default
+- [Backport] Removed XXUFME7 modem. ArchiDroid now doesn't flash any modem in default presets
+- [Backport] Added new aroma presets - Archi and Bare Bones.
 - Updated many inverted apps - facebook and messenger, google chrome/keep/mail/maps/calendar, youtube
 - Updated SuperUser by koush to 1.0.2.1
 - Updated CoolTool to 5.0 with a few nice modifications to ArchiDroid preset

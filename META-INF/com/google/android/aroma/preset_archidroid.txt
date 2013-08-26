@@ -1,0 +1,114 @@
+<b><#selectbg_g>Configuration by JustArchi</#></b>
+
+##################
+#  Kernel
+#
+# <#selectbg_g>Yes</#>   STOCK
+
+##################
+#  DPI
+#
+# <#selectbg_g>Yes</#>   240 DPI
+# No   280 DPI
+# No   320 DPI
+
+##################
+#  THEME
+#
+# <#selectbg_g>Yes</#>   DreamTheme AOSP
+# No   STOCK
+
+##################
+#  Launcher
+#  
+# <#selectbg_g>Yes</#>   Nova Launcher
+# No   AOSP Launcher
+
+##################
+#  Keyboard
+#  
+# <#selectbg_g>Yes</#>   TouchPal Keyboard
+# No   Hacker's Keyboard
+# No   TouchPal + Hacker's Keyboard
+# No   Stock CM
+
+##################
+#  Global Tweaks
+#
+# <#selectbg_g>Yes</#>   CrossBreeder
+# No   None
+#
+##################
+#  ArchiDroid Updates
+#
+# <#selectbg_g>Yes</#> 
+# No 
+
+##################
+#  Xposed Framework
+#
+# No 
+
+##################
+#  Xposed Modules
+#
+# No   App Settings
+# No   Call Recording
+
+##################
+#  Modem
+#
+# No   XXEMG4
+# <#selectbg_g>Yes</#> Keep Old Modem
+
+##################
+#  Recovery
+#
+# No   PhilZ Touch Recovery
+# <#selectbg_g>Yes</#>   None
+
+##################
+#  SuperUser
+#
+# <#selectbg_g>Yes</#>   SuperUser by Koush
+# No   SuperSu by Chainfire
+
+##################
+#  Google Apps
+#
+# No   Google Calendar
+# <#selectbg_g>Yes</#>   Google Chrome
+# <#selectbg_g>Yes</#>   Google Ears
+# <#selectbg_g>Yes</#>   Google Keep
+# <#selectbg_g>Yes</#>   Google Mail
+# <#selectbg_g>Yes</#>   Google Maps
+# <#selectbg_g>Yes</#>   Google Voice
+# No   Google Hangouts
+# No   Google Now
+# No   Google Plus
+
+##################
+#  ArchiDroid Apps
+#
+# <#selectbg_g>Yes</#>   Titanium Backup
+# No   ZRAM Status
+# <#selectbg_g>Yes</#>   Greenify
+# <#selectbg_g>Yes</#>   LMT
+# <#selectbg_g>Yes</#>   MXPlayer
+# <#selectbg_g>Yes</#>   BetterBatteryStats
+# <#selectbg_g>Yes</#>   CoolTool
+# <#selectbg_g>Yes</#>   Root Browser
+# <#selectbg_g>Yes</#>   Adobe Flash Player
+# <#selectbg_g>Yes</#>   YouTube
+# <#selectbg_g>Yes</#>   Android Terminal Emulator
+
+##################
+#  ArchiDroid Tweaks
+#
+# <#selectbg_g>Yes</#>   HD Voice
+# <#selectbg_g>Yes</#>   Add build.prop Tweaks
+# <#selectbg_g>Yes</#>   Sund Beep
+# <#selectbg_g>Yes</#>   Bootanimation ArchiDroid
+# <#selectbg_g>Yes</#>   ExFramework
+
+If you agree, press <b><#selectbg_g>"Next"</#></b> and if you do not, press <b><#selectbg_g>"Back"</#></b>
