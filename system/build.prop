@@ -20,8 +20,8 @@ ro.product.board=smdk4x12
 ro.product.cpu.abi=armeabi-v7a
 ro.product.cpu.abi2=armeabi
 ro.product.manufacturer=samsung
-ro.product.locale.language=pl
-ro.product.locale.region=PL
+ro.product.locale.language=en
+ro.product.locale.region=GB
 ro.board.platform=exynos4
 # ro.build.product is obsolete; use ro.product.device
 ro.build.product=m0
