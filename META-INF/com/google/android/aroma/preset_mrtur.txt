@@ -3,111 +3,105 @@
 ##################
 #  Kernel
 #
-# <#selectbg_g>Yes</#>   STOCK
+#  <#selectbg_g>STOCK</#>
 
 ##################
 #  DPI
 #
-# No   240 DPI
-# <#selectbg_g>Yes</#>   280 DPI
-# No   320 DPI
+#  240 DPI
+#  <#selectbg_g>280 DPI</#>
+#  320 DPI
 
 ##################
 #  THEME
 #
-# <#selectbg_g>Yes</#>   DreamTheme AOSP
-# No   STOCK
+#  <#selectbg_g>DreamTheme AOSP</#>
+#  STOCK
 
 ##################
 #  Launcher
 #  
-# <#selectbg_g>Yes</#>   Nova Launcher
-# No   AOSP Launcher
+#  <#selectbg_g>Nova Launcher</#>
+#  AOSP Launcher
 
 ##################
 #  Keyboard
 #  
-# <#selectbg_g>Yes</#>   TouchPal Keyboard
-# No   Hacker's Keyboard
-# No   TouchPal + Hacker's Keyboard
-# No   Stock CM
+#  <#selectbg_g>TouchPal Keyboard</#>
+#  Hacker's Keyboard
+#  TouchPal + Hacker's Keyboard
+#  Stock CM
 
 ##################
 #  Global Tweaks
 #
-# <#selectbg_g>Yes</#>   CrossBreeder
-# No   None
+#  <#selectbg_g>CrossBreeder</#>
+#  None
 #
 ##################
 #  ArchiDroid Updates
 #
-# No 
+#  No 
 
 ##################
 #  Xposed Framework
 #
-# No 
-
-##################
-#  Xposed Modules
-#
-# No   App Settings
-# No   Call Recording
+#  No 
 
 ##################
 #  Modem
 #
-# No   XXEMG4
-# <#selectbg_g>Yes</#>   Keep Old Modem
+#  XXEMG4
+#  <#selectbg_g>Keep Old Modem</#>
 
 ##################
 #  Recovery
 #
-# No   PhilZ Touch Recovery
-# <#selectbg_g>Yes</#>   None
+#  PhilZ Touch Recovery
+#  <#selectbg_g>Keep Old</#>
 
 ##################
 #  SuperUser
 #
-# <#selectbg_g>Yes</#>   SuperUser by Koush
-# No   SuperSu by Chainfire
+#  <#selectbg_g>SuperUser by Koush</#>
+#  SuperSu by Chainfire
 
 ##################
 #  Google Apps
 #
-# <#selectbg_g>Yes</#>   Google Calendar
-# No   Google Chrome
-# No   Google Ears
-# No   Google Keep
-# No   Google Mail
-# No   Google Maps
-# No   Google Voice
-# No   Google Hangouts
-# <#selectbg_g>Yes</#>   Google Now
-# No   Google Plus
+#  <#selectbg_g>Google Calendar</#>
+#  Google Chrome
+#  Google Ears
+#  Google Keep
+#  Google Mail
+#  Google Maps
+#  Google Voice
+#  Google Hangouts
+#  <#selectbg_g>Google Now</#>
+#  Google Plus
 
 ##################
 #  ArchiDroid Apps
 #
-# <#selectbg_g>Yes</#>   Titanium Backup
-# No   ZRAM Status
-# <#selectbg_g>Yes</#>   Greenify
-# No   LMT
-# <#selectbg_g>Yes</#>   MXPlayer
-# No   BetterBatteryStats
-# No   CoolTool
-# No   Root Browser
-# <#selectbg_g>Yes</#>   Adobe Flash Player
-# <#selectbg_g>Yes</#>   YouTube
-# No   Android Terminal Emulator
+#  <#selectbg_g>Titanium Backup</#>
+#  ZRAM Status
+#  <#selectbg_g>Greenify</#>
+#  LMT
+#  <#selectbg_g>MXPlayer</#>
+#  BetterBatteryStats
+#  CoolTool
+#  Root Browser
+#  <#selectbg_g>Adobe Flash Player</#>
+#  <#selectbg_g>YouTube</#>
+#  Android Terminal Emulator
 
 ##################
 #  ArchiDroid Tweaks
 #
-# <#selectbg_g>Yes</#>   HD Voice
-# <#selectbg_g>Yes</#>   Add build.prop Tweaks
-# <#selectbg_g>Yes</#>   Sund Beep
-# <#selectbg_g>Yes</#>   Bootanimation ArchiDroid
-# No   ExFramework
+#  <#selectbg_g>HD Voice</#>
+#  <#selectbg_g>Add build.prop Tweaks</#>
+#  <#selectbg_g>Sund Beep</#>
+#  <#selectbg_g>Bootanimation ArchiDroid</#>
+#  ExFramework
 
 If you agree, press <b><#selectbg_g>"Next"</#></b> and if you do not, press <b><#selectbg_g>"Back"</#></b>
