@@ -829,7 +829,8 @@ run_program("/tmp/busybox","umount","/sd-ext");
 
 	# Freeze fix
 	sleep (1);
-	assert(mount("ext4", "EMMC", "/dev/block/stl12", "/system") || ui_print("(system is mounted already)"));
+	assert(mount("ext4", "EMMC", "/dev/block/mmcblk0p9", "/system") || ui_print("(system is mounted already)"));
+	assert(mount("ext4", "EMMC", "/dev/block/mmcblk0p12", "/data") || ui_print("(data is mounted already)"));
 endif;
 
 set_progress(0.98);
